@@ -25,17 +25,14 @@ export function useComponentSize() {
   }, [ref.current]);
 
   React.useLayoutEffect(() => {
-    const element = ref.current;
-    if (!element) {
+    if (!ref.current) {
       return;
     }
 
     const resizeObserver = new ResizeObserver(() => onResize());
-    resizeObserver.observe(element);
+    resizeObserver.observe(ref.current);
 
-    return () => {
-      resizeObserver.disconnect();
-    };
+    return () => resizeObserver.disconnect();
   }, [ref.current]);
 
   return {
