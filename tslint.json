@@ -1,3 +1,10 @@
 {
-    "extends": ["tslint:recommended", "tslint-react"]
+    "extends": [
+        "tslint:recommended",
+        "tslint-react",
+        "tslint-react-hooks"
+    ],
+    "rules": {
+        "react-hooks-nesting": "error"
+    }
 }
