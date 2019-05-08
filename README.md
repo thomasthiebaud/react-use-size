@@ -20,3 +20,23 @@ const YourComponent = () => {
   );
 };
 ```
+
+## useComponentSize
+
+```js
+import { useComponentSize } from "react-use-size";
+
+const YourComponent = () => {
+  const { ref, height, width } = useComponentSize();
+
+  return (
+    <React.Fragment>
+      <div ref={ref}>
+        Component
+        <p>Height: {height}</p>
+        <p>Width: {width}</p>
+      </div>
+    </React.Fragment>
+  );
+};
+```
