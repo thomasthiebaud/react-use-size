@@ -50,3 +50,31 @@ const YourComponent = () => {
   );
 };
 ```
+
+## How to contribute?
+
+This repo enforce commit style so the release process is automatic. Commits must look like:
+
+> SUBJECT: message starting with a lowercase
+
+where SUBJECT is one of:
+
+- build
+- ci
+- chore
+- docs
+- feat
+- fix
+- perf
+- refactor
+- revert
+- style
+- test
+
+A commit including `BREAKING CHANGE:` in the body will create a new major release.
+
+More details about the conventions are available [here](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#summary) and [here](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional).
+
+## Found a problem?
+
+Please open an issue or submit a PR, we will be more than happy to help
