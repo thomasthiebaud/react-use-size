@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/thomasthiebaud/react-use-size/compare/v1.1.0...v1.1.1) (2019-05-08)
+
+
+### Bug Fixes
+
+* change useWindowSize to use useLayoutEffect ([31fad29](https://github.com/thomasthiebaud/react-use-size/commit/31fad29))
+* remove useless variable assignment ([19a61ce](https://github.com/thomasthiebaud/react-use-size/commit/19a61ce))
+
 # [1.1.0](https://github.com/thomasthiebaud/react-use-size/compare/v1.0.0...v1.1.0) (2019-05-08)
 
 
