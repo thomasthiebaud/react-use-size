@@ -1,0 +1,22 @@
+sudo: false
+language: node_js
+
+# Keep empty to use version from .nvmrc
+node_js: null
+
+install:
+  - npm ci
+
+script:
+  - npm run lint
+  - npm run build
+
+after_success:
+  - npx semantic-release
+
+branches:
+  only:
+    - master
+
+notifications:
+  email: false
