@@ -2,9 +2,12 @@
   "name": "react-use-size",
   "version": "0.0.1",
   "description": "React hooks to measure things",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "lint": "tslint --project .",
+    "lint:fix": "tslint --project . --fix"
   },
   "repository": {
     "type": "git",
@@ -27,11 +30,15 @@
     "@semantic-release/release-notes-generator": "7.1.4",
     "commitlint": "7.6.0",
     "husky": "2.2.0",
-    "semantic-release": "15.13.3"
+    "semantic-release": "15.13.3",
+    "tslint": "5.16.0",
+    "tslint-react": "4.0.0",
+    "typescript": "3.4.5"
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS --extends @commitlint/config-conventional"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS --extends @commitlint/config-conventional",
+      "pre-commit": "npm run lint"
     }
   }
 }
