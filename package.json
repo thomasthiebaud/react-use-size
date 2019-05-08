@@ -28,12 +28,17 @@
     "@semantic-release/github": "5.2.10",
     "@semantic-release/npm": "5.1.4",
     "@semantic-release/release-notes-generator": "7.1.4",
+    "@types/react": "16.8.17",
     "commitlint": "7.6.0",
     "husky": "2.2.0",
+    "react": "16.8.6",
     "semantic-release": "15.13.3",
     "tslint": "5.16.0",
     "tslint-react": "4.0.0",
     "typescript": "3.4.5"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
   },
   "husky": {
     "hooks": {
