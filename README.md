@@ -4,7 +4,17 @@
 
 A collection of hooks to measure things in React
 
-## useWindowSize
+## Installation
+
+```
+npm i react-use-size
+// or
+yarn react-use-size
+```
+
+## Usage
+
+### useWindowSize
 
 ```js
 import { useWindowSize } from "react-use-size";
@@ -21,7 +31,7 @@ const YourComponent = () => {
 };
 ```
 
-## useComponentSize
+### useComponentSize
 
 ```js
 import { useComponentSize } from "react-use-size";
