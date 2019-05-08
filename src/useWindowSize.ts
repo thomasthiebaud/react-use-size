@@ -10,7 +10,7 @@ function measure() {
 export function useWindowSize() {
   const [size, setSize] = React.useState(measure());
 
-  React.useEffect(() => {
+  React.useLayoutEffect(() => {
     function onResize() {
       setSize(measure());
     }
