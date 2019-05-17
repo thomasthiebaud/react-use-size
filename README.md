@@ -9,7 +9,7 @@ A collection of hooks to measure things in React
 ```
 npm i react-use-size
 // or
-yarn react-use-size
+yarn add react-use-size
 ```
 
 ## Usage
@@ -48,6 +48,40 @@ const YourComponent = () => {
       </div>
     </React.Fragment>
   );
+};
+```
+
+### useBreakpoint
+
+```js
+import { useBreakpoint } from "react-use-size";
+
+const YourComponent = () => {
+  const isSmall = useBreakpoint(640);
+
+  if (isSmall) {
+    return <SmallComponent />
+  } else {
+    return <DefaultComponent />
+  }
+};
+```
+
+### useBreakpoints
+
+```js
+import { useBreakpoints } from "react-use-size";
+
+const YourComponent = () => {
+  const [isSmall, isMedium] = useBreakpoint([640, 1024]);
+
+  if (isSmall) {
+    return <SmallComponent />
+  } else if(isMedium) {
+    return <MediumComponent />
+  } else {
+    return <DefaultComponent />
+  }
 };
 ```
 
