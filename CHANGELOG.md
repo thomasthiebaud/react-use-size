@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/thomasthiebaud/react-use-size/compare/v1.1.1...v1.2.0) (2019-05-17)
+
+
+### Bug Fixes
+
+* remove unecessary functions ([d17ad7c](https://github.com/thomasthiebaud/react-use-size/commit/d17ad7c))
+
+
+### Features
+
+* add useBreakpoint and useBreakpoints hooks ([e9cadbe](https://github.com/thomasthiebaud/react-use-size/commit/e9cadbe))
+
 ## [1.1.1](https://github.com/thomasthiebaud/react-use-size/compare/v1.1.0...v1.1.1) (2019-05-08)
 
 
