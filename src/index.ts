@@ -1,2 +1,2 @@
-export { useComponentSize } from "./useComponentSize";
-export { useWindowSize } from "./useWindowSize";
+export { useComponentSize } from './useComponentSize';
+export { useWindowSize } from './useWindowSize';

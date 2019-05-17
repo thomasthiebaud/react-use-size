@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react';
 
 function measure() {
   return {
@@ -14,8 +14,8 @@ export function useWindowSize() {
     function onResize() {
       setSize(measure());
     }
-    window.addEventListener("resize", onResize);
-    return () => window.removeEventListener("resize", onResize);
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
   }, []);
 
   return size;

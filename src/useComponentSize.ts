@@ -1,5 +1,5 @@
-import * as React from "react";
-import ResizeObserver from "resize-observer-polyfill";
+import * as React from 'react';
+import ResizeObserver from 'resize-observer-polyfill';
 
 export function useComponentSize() {
   const [size, setSize] = React.useState({
@@ -22,7 +22,7 @@ export function useComponentSize() {
         width: newWidth,
       });
     }
-  }, [ref.current]);
+  }, [size.height, size.width]);
 
   React.useLayoutEffect(() => {
     if (!ref.current) {
@@ -33,7 +33,7 @@ export function useComponentSize() {
     resizeObserver.observe(ref.current);
 
     return () => resizeObserver.disconnect();
-  }, [ref.current]);
+  }, [onResize]);
 
   return {
     ref,
