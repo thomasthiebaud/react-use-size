@@ -29,10 +29,10 @@ export function useComponentSize() {
       return;
     }
 
-    const resizeObserver = new ResizeObserver(() => onResize());
+    const resizeObserver = new ResizeObserver(onResize);
     resizeObserver.observe(ref.current);
 
-    return () => resizeObserver.disconnect();
+    return resizeObserver.disconnect;
   }, [onResize]);
 
   return {
