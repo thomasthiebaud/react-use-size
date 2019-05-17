@@ -4,6 +4,7 @@
   "description": "React hooks to measure things",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "sideEffects": false,
   "scripts": {
     "build": "tsc",
     "lint": "eslint src/**",
