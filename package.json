@@ -1,6 +1,6 @@
 {
   "name": "react-use-size",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "React hooks to measure things",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/thomasthiebaud/react-use-size/compare/v1.2.0...v1.2.1) (2019-05-18)
+
+
+### Bug Fixes
+
+* correct error in useBreakpoints condition ([5bfead1](https://github.com/thomasthiebaud/react-use-size/commit/5bfead1))
+
 # [1.2.0](https://github.com/thomasthiebaud/react-use-size/compare/v1.1.1...v1.2.0) (2019-05-17)
 
 
