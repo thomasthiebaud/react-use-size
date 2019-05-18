@@ -1,3 +1,3 @@
-export { useBreakpoint, useBreakpoints } from './useBreakpoint';
-export { useComponentSize } from './useComponentSize';
-export { useWindowSize } from './useWindowSize';
+export * from './useBreakpoint';
+export * from './useComponentSize';
+export * from './useWindowSize';
