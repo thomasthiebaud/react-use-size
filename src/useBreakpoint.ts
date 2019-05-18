@@ -8,5 +8,5 @@ export function useBreakpoint(breakpoint: number) {
 export function useBreakpoints(breakpoints: number[]) {
   const { width } = useWindowSize();
 
-  return breakpoints.map(breakpoint => breakpoint < width);
+  return breakpoints.map(breakpoint => width < breakpoint);
 }
