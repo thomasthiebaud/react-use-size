@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/thomasthiebaud/react-use-size/compare/v1.2.1...v1.2.2) (2019-05-21)
+
+
+### Bug Fixes
+
+* target es5 ([164df77](https://github.com/thomasthiebaud/react-use-size/commit/164df77))
+
 ## [1.2.1](https://github.com/thomasthiebaud/react-use-size/compare/v1.2.0...v1.2.1) (2019-05-18)
 
 
