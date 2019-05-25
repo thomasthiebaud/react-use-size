@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "docs:start": "webpack-dev-server --config ./docs/webpack.dev.js",
-    "lint": "eslint src/**",
+    "lint": "eslint . --ext *.ts --ext *.tsx",
     "lint:fix": "npm run lint -- --fix",
     "start": "jest --watch",
     "test": "jest"
