@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/thomasthiebaud/react-use-size/compare/v1.2.2...v1.2.3) (2019-05-25)
+
+
+### Bug Fixes
+
+* change return value of useEffect to fix critical issue ([43046d8](https://github.com/thomasthiebaud/react-use-size/commit/43046d8))
+
 ## [1.2.2](https://github.com/thomasthiebaud/react-use-size/compare/v1.2.1...v1.2.2) (2019-05-21)
 
 
