@@ -6,7 +6,7 @@ export function useComponentSize() {
     height: 0,
     width: 0,
   });
-  const ref = React.useRef<HTMLElement>();
+  const ref = React.useRef<any>();
 
   const onResize = React.useCallback(() => {
     if (!ref.current) {
@@ -25,15 +25,15 @@ export function useComponentSize() {
   }, [size.height, size.width]);
 
   React.useLayoutEffect(() => {
-    if (!ref.current) {
+    if (!ref || !ref.current) {
       return;
     }
 
     const resizeObserver = new ResizeObserver(onResize);
     resizeObserver.observe(ref.current);
 
-    return resizeObserver.disconnect;
-  }, [onResize]);
+    return () => resizeObserver.disconnect();
+  }, [ref, onResize]);
 
   return {
     ref,
