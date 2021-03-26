@@ -1,0 +1,3 @@
+if ! [ $CI ]; then
+    npx --no-install commitlint --edit $1 --extends @commitlint/config-conventional
+fi

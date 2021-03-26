@@ -1,0 +1,3 @@
+if ! [ $CI ]; then
+    npm run lint
+fi
