@@ -1,5 +1,4 @@
 import * as React from 'react';
-import ResizeObserver from 'resize-observer-polyfill';
 
 export function useComponentSize() {
   const [size, setSize] = React.useState({
