@@ -1,3 +1,23 @@
+# [2.0.0](https://github.com/thomasthiebaud/react-use-size/compare/v1.2.3...v2.0.0) (2021-04-29)
+
+
+### Bug Fixes
+
+* add react ^17.0.0 as a peerDependency too ([5d9d15d](https://github.com/thomasthiebaud/react-use-size/commit/5d9d15d15a66a711c7d65589bb1e99b0b98c1516))
+* trigger build with new credentials ([038f74d](https://github.com/thomasthiebaud/react-use-size/commit/038f74d04141779a88a30a5460cfc9c8ac3556c8))
+* update CI to use node LTS ([3d58cb2](https://github.com/thomasthiebaud/react-use-size/commit/3d58cb2c4d551ba7ab8cf944c6f204e96cbfb0b2))
+* update dependencies to fix vulnerabilities ([59c9a20](https://github.com/thomasthiebaud/react-use-size/commit/59c9a20de6026f172565dfc2bce25d8e0497dc44))
+
+
+### Features
+
+* remove resize-observer-polyfill ([647ef28](https://github.com/thomasthiebaud/react-use-size/commit/647ef2836e8a9884142c90994607b774e7191336))
+
+
+### BREAKING CHANGES
+
+* we do not include a polyfill for ResizeObserver by default anymore.
+
 ## [1.2.3](https://github.com/thomasthiebaud/react-use-size/compare/v1.2.2...v1.2.3) (2019-05-25)
 
 
