@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/thomasthiebaud/react-use-size/compare/v2.0.2...v2.0.3) (2021-08-08)
+
+
+### Bug Fixes
+
+* update dependencies ([a0a4998](https://github.com/thomasthiebaud/react-use-size/commit/a0a499857d57cffa5d4b801b1190fae6a2db8b39))
+
 ## [2.0.2](https://github.com/thomasthiebaud/react-use-size/compare/v2.0.1...v2.0.2) (2021-06-08)
 
 
