@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/thomasthiebaud/react-use-size/compare/v2.0.4...v2.1.0) (2022-04-04)
+
+
+### Features
+
+* add support for react 18 ([b612112](https://github.com/thomasthiebaud/react-use-size/commit/b6121122594fec2e69a3902c7f36174f1103f7e5))
+
 ## [2.0.4](https://github.com/thomasthiebaud/react-use-size/compare/v2.0.3...v2.0.4) (2021-09-27)
 
 
