@@ -13,6 +13,9 @@
     "start": "jest --watch",
     "test": "jest"
   },
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thomasthiebaud/react-use-size.git"
