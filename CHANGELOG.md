@@ -1,3 +1,21 @@
+# [3.0.0](https://github.com/thomasthiebaud/react-use-size/compare/v2.1.0...v3.0.0) (2022-06-06)
+
+
+### Bug Fixes
+
+* update dependencies to fix vulnerabilities ([8578906](https://github.com/thomasthiebaud/react-use-size/commit/8578906aaabee1cb2e71faf40b37929c408db228))
+
+
+### chore
+
+* drop support for node 12 ([77e2cd4](https://github.com/thomasthiebaud/react-use-size/commit/77e2cd47d004ae689435cabb9ed007374234a1e3))
+
+
+### BREAKING CHANGES
+
+* regenerate the package-lock.json file to use lockfileVersion v2.
+* drop support for node 12 and requires node 14 (LTS) or later
+
 # [2.1.0](https://github.com/thomasthiebaud/react-use-size/compare/v2.0.4...v2.1.0) (2022-04-04)
 
 
