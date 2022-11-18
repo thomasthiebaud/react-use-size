@@ -1,3 +1,12 @@
+## [3.0.1](https://github.com/thomasthiebaud/react-use-size/compare/v3.0.0...v3.0.1) (2022-11-18)
+
+
+### Bug Fixes
+
+* fix duplicate types ([5526fac](https://github.com/thomasthiebaud/react-use-size/commit/5526fac7f698032e0164f7d2239b2795cb16d9c9))
+* update dependencies to fix vulnerabilities ([a93242d](https://github.com/thomasthiebaud/react-use-size/commit/a93242d93cfcb1e31ebae07bf49fee99e64fc633))
+* update tests to work with react 18 ([8bffd46](https://github.com/thomasthiebaud/react-use-size/commit/8bffd46467f950b01e90c8b913fd4c7a5c977ad2))
+
 # [3.0.0](https://github.com/thomasthiebaud/react-use-size/compare/v2.1.0...v3.0.0) (2022-06-06)
 
 
