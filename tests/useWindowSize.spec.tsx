@@ -1,6 +1,6 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import { act } from 'react-dom/test-utils';
+import {createRoot} from 'react-dom/client';
+import { act } from '@testing-library/react';
 
 import { useWindowSize } from '../src';
 
@@ -29,7 +29,8 @@ describe('useWindowSize', () => {
     };
 
     act(() => {
-      ReactDOM.render(<Component />, container);
+      const root = createRoot(container)
+      root.render(<Component />)
     });
 
     const height = container.querySelector('#height');

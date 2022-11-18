@@ -1,6 +1,6 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import { act } from 'react-dom/test-utils';
+import {createRoot} from 'react-dom/client';
+import { act } from '@testing-library/react';
 
 import { useBreakpoint, useBreakpoints } from '../src';
 
@@ -28,7 +28,8 @@ describe('useBreakpoint', () => {
     };
 
     act(() => {
-      ReactDOM.render(<Component />, container);
+      const root = createRoot(container)
+      root.render(<Component />)
     });
 
     let big = container.querySelector('#big');
@@ -68,7 +69,8 @@ describe('useBreakpoint', () => {
     };
 
     act(() => {
-      ReactDOM.render(<Component />, container);
+      const root = createRoot(container)
+      root.render(<Component />)
     });
 
     Object.defineProperty(window, 'innerWidth', {
