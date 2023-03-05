@@ -73,7 +73,7 @@ const YourComponent = () => {
 import { useBreakpoints } from "react-use-size";
 
 const YourComponent = () => {
-  const [isSmall, isMedium] = useBreakpoint([640, 1024]);
+  const [isSmall, isMedium] = useBreakpoints([640, 1024]);
 
   if (isSmall) {
     return <SmallComponent />
