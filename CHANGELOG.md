@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/thomasthiebaud/react-use-size/compare/v3.0.2...v3.0.3) (2024-01-21)
+
+
+### Bug Fixes
+
+* update dependencies to fix vulnerabilities ([d45722f](https://github.com/thomasthiebaud/react-use-size/commit/d45722f860bcc7ae53b6ce1221fcf4c7ae1a9b79))
+
 ## [3.0.2](https://github.com/thomasthiebaud/react-use-size/compare/v3.0.1...v3.0.2) (2023-07-29)
 
 
