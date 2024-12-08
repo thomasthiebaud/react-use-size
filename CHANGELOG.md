@@ -1,3 +1,13 @@
+# [4.0.0](https://github.com/thomasthiebaud/react-use-size/compare/v3.0.4...v4.0.0) (2024-12-08)
+
+
+* chore!: drop support for Node 20 ([6ced4ef](https://github.com/thomasthiebaud/react-use-size/commit/6ced4ef11fde8be773148346dc45e196595843f7))
+
+
+### BREAKING CHANGES
+
+* drop support for Node 20 and require Node 22 LTS or more recent
+
 ## [3.0.4](https://github.com/thomasthiebaud/react-use-size/compare/v3.0.3...v3.0.4) (2024-12-08)
 
 
