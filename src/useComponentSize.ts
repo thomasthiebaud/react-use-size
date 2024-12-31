@@ -5,7 +5,7 @@ export function useComponentSize() {
     height: 0,
     width: 0,
   });
-  const ref = React.useRef<any>();
+  const ref = React.useRef<any>(undefined);
 
   const onResize = React.useCallback(() => {
     if (!ref.current) {
