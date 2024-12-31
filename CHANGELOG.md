@@ -1,3 +1,16 @@
+# [5.0.0](https://github.com/thomasthiebaud/react-use-size/compare/v4.0.0...v5.0.0) (2024-12-31)
+
+
+### Features
+
+* drop react < 19 ([479a83c](https://github.com/thomasthiebaud/react-use-size/commit/479a83ca225a447ebfc72114439eb402894d2e42))
+
+
+### BREAKING CHANGES
+
+* drop support for all react versions < 19.
+To use older versions of react stick with react-use-size < 5.
+
 # [4.0.0](https://github.com/thomasthiebaud/react-use-size/compare/v3.0.4...v4.0.0) (2024-12-08)
 
 
