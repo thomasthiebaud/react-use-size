@@ -1,3 +1,10 @@
+## [5.0.1](https://github.com/thomasthiebaud/react-use-size/compare/v5.0.0...v5.0.1) (2025-02-01)
+
+
+### Bug Fixes
+
+* relax node version constrainst and support node v18+ ([85e124f](https://github.com/thomasthiebaud/react-use-size/commit/85e124f8928b0a04a682d25725de2b5186f06343))
+
 # [5.0.0](https://github.com/thomasthiebaud/react-use-size/compare/v4.0.0...v5.0.0) (2024-12-31)
 
 
